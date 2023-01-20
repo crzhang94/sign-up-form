@@ -108,16 +108,23 @@ form {
 .form-row input[type="email"],
 .form-row input[type="tel"],
 .form-row input[type="password"] {
-    border: 1px solid #CCCCCC;
-    font-size: 1.5rem;
+    border: 1px solid #E5E7EB;
+    font-size: 1rem;
     border-radius: 5px;
     height: 1.8rem;
+    padding: 5px;
     width: 80%;
 }
 
 .form-element {
     display: flex;
     flex-direction: column ;
+    width: 48%;
+}
+
+input:focus {
+
+    
 }
 
 .account-info {
@@ -151,4 +158,8 @@ form {
 .account-info > p > span > a {
     text-decoration: none;
     color: #596D48
+}
+
+input:focus {
+    outline: 1px solid blue;
 }
